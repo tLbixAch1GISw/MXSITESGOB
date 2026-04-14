@@ -178,3 +178,16 @@ gobmx.org
 #   Ajustes → Listas → Pegar URL o importar este archivo
 #   como lista de bloqueo tipo "dominio"
 # ============================================================
+# Sitios apócrifos adicionales (Alertas 2025-2026)
+siat-sat-gob-mx-hacienda.com
+sat-gobmx.online
+portalsiatsat-gobmx.ddns.net
+sat.gobf.mx
+verificacfdi.facturaelectronica.sat.gobf.mx
+sre.gyob.mx
+portalmx.lnfonavlt.com
+gobmx-sat.com
+sat-aclaraciones.com
+deudas-sat.link
+aclaraciones-sat.link
+shcp-gob-yucatan.org
