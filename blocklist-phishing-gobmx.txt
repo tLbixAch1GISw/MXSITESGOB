@@ -1,0 +1,180 @@
+# ============================================================
+# Blocklist: Phishing - Servicios de Gobierno Mexicano
+# Formato: Pi-hole / AdGuard Home (dominio por línea)
+# Fuentes: Lista oficial SAT (gob.mx), reportes de seguridad
+# Actualizado: 2026-04-14
+# ============================================================
+# Reportar nuevos sitios a: phishing@sat.gob.mx
+#                           denuncias@sat.gob.mx
+# ============================================================
+
+# ============================================================
+# SECCIÓN 1 — Lista inicial del usuario (defanged → limpio)
+# ============================================================
+sat-gobs.com
+validador-sat-gob.com
+infonavitmx.com
+verificarcfdi-facturaelectronica.com
+gobmx.top
+portalinfonavit.com
+sat-gob-gtm.com
+sat-gob.bar
+sat-gob.help
+anam-gob-mx.com
+express-cita-sre-gob-mx.com
+
+# ============================================================
+# SECCIÓN 2 — Suplantación del SAT (Lista oficial SAT / gob.mx)
+# Fuente: https://www.gob.mx/sat/acciones-y-programas/sitios-web-falsos
+# ============================================================
+
+# --- SAT general ---
+sataduanamxgob.com
+sat-gestiones-mexico.com
+gobsatmx.com.mx
+satmxn.com
+satcitas.com.mx
+www-satgob.com
+sat-gob.digital
+sat-gob.org
+sat-gob.com
+sat-mx.org
+satayuda.com
+satgobierno.com.mx
+satgobmx.com
+satgobmx.org
+satgobmx.ml
+satgobmexico.org
+satmexico.mx
+satmexico-gob.org
+satmexico-gob.com
+satmexico-gobierno.com
+sat-mexico.com
+sat-mexico-gob.com
+sat-mexico-gob.org
+sat-enlinea-gob.mx
+oficial-sat-mexico.org
+mxsatgob.org
+gobmx-sat.com
+gobiernodemexico-sat.org
+tramite-sat.com
+tramites-satgob.com
+tramites-satgob.mx
+devolucionsat.com
+sat-devolucionmexico2023.com
+gestiones-sat.online
+sat-info.link
+informacion-sat.online
+elsatmx.com
+satextension.info
+gobf.mx
+
+# --- SAT citas ---
+citas-sat.site
+citas-sat.com.mx
+sacarcita.mx
+
+# --- SAT regionales falsos ---
+haciendasat-ags.org
+satregionalsonora.com
+satregionalchiapas.com
+satcolima.com
+sathgo-gobmx.com
+sat-gob-tamps.com
+satmerida.org
+satguadalajara.org
+satmexicali.com
+gob-hidalgo-sat.com
+gob-sat-jalisco.com
+sat-gob-coah.com
+sat-michoacan-gob.com
+sat-sonora.org
+sat-hidalgo.org
+gob-sat-gto.com
+satidherrerosgob.com
+sat-hacienda-gob.mx
+haciendasat-gobierno.mx
+gob-mx-tramites.com
+siia-sat-gob-com.mx
+portalsat-idmexico.com
+satgobiernodeyucatan.org
+
+# --- SAT SMS phishing (smishing) ---
+deudas-sat.link
+aclaraciones-sat.link
+deudasyaclaraciones-sat-gob.link
+aclaracionesydeudas-sat-gob.link
+sat-aclaracionesydeudas.link
+deudas-sat-gob.link
+aclaraciones-sat-gob.link
+sat-citatorio.info
+sat-info.link
+buzontribiutariomx.com
+
+# --- SAT subastas/remates falsos ---
+rematestributarios.com
+rematestributarios.org
+remates-tributarios.com
+rematessat.org
+aduanas-sat.com.mx
+aduanas-sat.mx
+aduanas-mexico.org
+aduanasmexico.org
+gob-aduanamexico.mx
+sat-ventadirecta.mx
+sat-bmwgob.mx
+sat-goodyeargob.mx
+bestbuy-satgob.mx
+sat-bmwgroupgob.mx
+sat-plantabmwgob.mx
+sat-plantaaudigob.mx
+centralmexico-satgob.mx
+autozone-satgob.mx
+
+# --- SAT validación CFDI falsos ---
+verificacdfifacturaselectronicassatmx.com
+verificacfdifacturaelectronicasatgob.com.mx
+validacion-satgob.mx
+rfc-siat-satgob.mx
+siat-sat-gob-mx-ceduladeidentificacionfiscal.mx
+
+# --- SHCP / Hacienda falsos ---
+shcp-2024.org
+shcpveracruz.com
+shcp-gob-slp.org
+shcp-gob-yucatan.org
+shcp-septiembre.info
+shcp-agosto.com
+shcp-julio.com
+shcp-uno.mx
+shcp-mex.org
+shcp-enlinea.org.mx
+shcp-mx.org
+subastas-shcp-gob.mx
+shcp-ventas.mx
+shcp-mexico.org
+gob-shcp.info
+hacienda-2023.com
+secretariadehacienda.com.mx
+
+# --- SEGOB falsos ---
+segob-gob.mx
+segob-gob.org
+
+# ============================================================
+# SECCIÓN 3 — Dominios adicionales de fuentes de seguridad
+# Fuente: Analisis.mx, R3D, Tecnetone, alertas CERT-MX
+# ============================================================
+correosdyy.xyz
+tramite-sat.com
+sat-gestiones-mexico.com
+presidencia-gob.mx
+pgob.mx
+gobmx.org
+
+# ============================================================
+# FIN DE LISTA
+# Para agregar a Pi-hole:
+#   Ajustes → Listas → Pegar URL o importar este archivo
+#   como lista de bloqueo tipo "dominio"
+# ============================================================
